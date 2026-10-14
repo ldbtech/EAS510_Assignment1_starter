@@ -75,19 +75,51 @@ def _size(path):
     except Exception:
         return None
 
-
+def file_format(header) -> str:
+    if header[0] == 0xFF and header[1] == 0xD8:
+        return "JPEG"
+    elif list(header) == [0x89, 0x50, 0x4E, 0x47]:
+        return "PNG"
+    else:
+        return "UKNOWN"
 def rule1_metadata(target, input_path):
     """File size + dimensions. Compression and crops leave size fingerprints."""
     out = {"rule": 1, "name": "Metadata", "fired": False, "score": 0,
            "out_of": 30, "note": "Size ratio 0.00", "metric": 0.0}
     try:
-        src_size = os.path.getsize(target["path"])
-        in_size = os.path.getsize(input_path)
+        # ok have to use os.state instea of os.path.getsize . 
+        src_size = os.stat(target["path"]).st_size
+        in_size = os.stat(input_path).st_size
+        
         src_w, src_h = _size(target["path"]) or (0, 0)
         in_w, in_h = _size(input_path) or (0, 0)
-        size_ratio = min(src_size, in_size) / max(src_size, in_size)
+
+        size_ratio = min(src_size, in_size) / max(src_size, in_size, 1) # in case it is zero we divide by 1.
+        
+        if min(src_w, src_h, in_w, in_h) <= 0:
+            return out
+
+
         area_kept = (in_w * in_h) / max(1, src_w * src_h)
-        metric = 0.5 * size_ratio + 0.5 * min(1.0, area_kept)
+        aspect_ratio = min(src_w / src_h, in_w / in_h) / max(src_w / src_h, in_w / in_h) 
+
+        with open(target["path"], "rb") as f:
+            src_header = f.read(8)
+
+        with open(input_path, "rb") as f:
+            in_header = f.read(8)
+
+        src_format = file_format(src_header)
+        in_format = file_format(in_header)
+
+        if src_format == "UKNOWN" or in_format == "UKNOWN":
+            format_score = 0.5
+
+        else:
+            format_score = 1.0 if src_format == in_format else 0.0
+
+        metric = 0.20 * size_ratio + 0.35 * min(1.0, area_kept) +0.30 * aspect_ratio + 0.15 * format_score
+        
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
         out["note"] = f"Size ratio {out['metric']:.2f}"
         if out["metric"] >= 0.6:
