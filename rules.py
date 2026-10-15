@@ -44,7 +44,8 @@ def _hist(path):
     img = _arr(path)
     if img is None:
         return None
-    hists = [cv2.calcHist([img], [i], None, [32], [0, 256]) for i in range(3)]
+    # Makes color bracket broather. 
+    hists = [cv2.calcHist([img], [i], None, [16], [0, 256]) for i in range(3)]
     hist_all = np.concatenate(hists).ravel().astype(np.float32)
     cv2.normalize(hist_all, hist_all)
     return hist_all
@@ -113,16 +114,17 @@ def rule1_metadata(target, input_path):
         in_format = file_format(in_header)
 
         if src_format == "UKNOWN" or in_format == "UKNOWN":
-            format_score = 0.5
+            format_score = 0.0
 
         else:
-            format_score = 1.0 if src_format == in_format else 0.0
+            format_score = 1.0
 
-        metric = 0.20 * size_ratio + 0.35 * min(1.0, area_kept) +0.30 * aspect_ratio + 0.15 * format_score
+        metric = 0.25 * size_ratio + 0.30 * min(1.0, area_kept) +0.30 * aspect_ratio + 0.15 * format_score
         
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
         out["note"] = f"Size ratio {out['metric']:.2f}"
-        if out["metric"] >= 0.6:
+
+        if out["metric"] >= 0.75:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
     except Exception:
@@ -141,7 +143,7 @@ def rule2_histogram(target, input_path):
         corr = float(cv2.compareHist(hs, hi, cv2.HISTCMP_CORREL))
         out["metric"] = round(max(0.0, min(1.0, corr)), 3)
         out["note"] = f"Correlation {out['metric']:.2f}"
-        if out["metric"] >= 0.5:
+        if out["metric"] >= 0.75:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
     except Exception:
