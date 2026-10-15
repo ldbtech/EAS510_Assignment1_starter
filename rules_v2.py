@@ -9,6 +9,18 @@ Score stays on a /100 scale (the format validator enforces "Final Score:
 
 Example split that keeps the original spirit: Rules 1-3 -> 25/25/40 and
 Rule 4 -> 10 (or trim the losers more aggressively).
+
+RULE 1 WEAKNESSES: 
+    - metadata isn't strong evidence of image-matching.
+    - cropping and resizing change dimentions and area ratios or compression.
+    - dimentions, aspect ratio , files formats and JPEG-PNG only shows a format conversion but not identifying 
+      which original the image came from. 
+    - Ofc lastly problem with rotations, image augmentations that are still match if human were to observe it. 
+
+    SO my current thinking as i have taken long way before Computer Vision Course. I am looking into implmenting ORB-KEYPOINTS, SIFT W/RANSAC i know those two are used in image stitching to build panaroma however, i believe they can be used in image matching. 
+    - Also another algorithm can be used which clustering but it can count as an ML model mostly it is used in Face detections algorithms. 
+
+    - We will experement first with the first two. 
 """
 
 import rules
