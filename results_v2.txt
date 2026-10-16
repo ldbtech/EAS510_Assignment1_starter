@@ -1,0 +1,944 @@
+Processing: modified_00_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1030/1051 -> 10/10 points
+Final Score: 98/100 -> MATCH to original_00
+
+Processing: modified_00_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.83 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1378/1380 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_00
+
+Processing: modified_00_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.49 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.39 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 5/13 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: modified_00_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.60 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.75 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.10 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 125/143 -> 9/10 points
+Final Score: 9/100 -> REJECTED
+
+Processing: modified_00_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 19/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.87 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.21 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 367/393 -> 9/10 points
+Final Score: 50/100 -> MATCH to original_00
+
+Processing: modified_00_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1500/1500 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_00
+
+Processing: modified_01_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.35 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1088/1098 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_01
+
+Processing: modified_01_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1123/1130 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_01
+
+Processing: modified_01_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.50 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.88 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 6/14 -> 3/10 points
+Final Score: 25/100 -> REJECTED
+
+Processing: modified_01_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.61 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.08 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 129/173 -> 7/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: modified_01_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.80 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.29 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 269/307 -> 9/10 points
+Final Score: 54/100 -> MATCH to original_01
+
+Processing: modified_01_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1264/1264 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_01
+
+Processing: modified_02_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 25/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.86 -> 22/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 882/894 -> 10/10 points
+Final Score: 97/100 -> MATCH to original_02
+
+Processing: modified_02_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1385/1387 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_02
+
+Processing: modified_02_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.48 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.89 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 7/12 -> 4/10 points
+Final Score: 26/100 -> REJECTED
+
+Processing: modified_02_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.58 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 86/103 -> 8/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: modified_02_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.76 -> 19/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.05 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 209/231 -> 9/10 points
+Final Score: 53/100 -> MATCH to original_02
+
+Processing: modified_02_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1484/1484 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_02
+
+Processing: modified_03_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1328/1331 -> 10/10 points
+Final Score: 99/100 -> MATCH to original_03
+
+Processing: modified_03_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1355/1356 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_03
+
+Processing: modified_03_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.45 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.82 -> 20/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/2 -> 0/10 points
+Final Score: 20/100 -> REJECTED
+
+Processing: modified_03_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.60 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.89 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.18 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 70/77 -> 9/10 points
+Final Score: 31/100 -> REJECTED
+
+Processing: modified_03_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 19/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.36 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 429/435 -> 10/10 points
+Final Score: 53/100 -> MATCH to original_03
+
+Processing: modified_03_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1466/1466 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_03
+
+Processing: modified_04_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1079/1090 -> 10/10 points
+Final Score: 100/100 -> MATCH to original_04
+
+Processing: modified_04_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1279/1283 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_04
+
+Processing: modified_04_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.31 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.06 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 10/16 -> 6/10 points
+Final Score: 30/100 -> REJECTED
+
+Processing: modified_04_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.61 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 22/50 -> 4/10 points
+Final Score: 29/100 -> REJECTED
+
+Processing: modified_04_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.80 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 88/134 -> 7/10 points
+Final Score: 52/100 -> MATCH to original_04
+
+Processing: modified_04_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1427/1427 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_04
+
+Processing: modified_05_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.62 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1149/1156 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_05
+
+Processing: modified_05_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1347/1349 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_05
+
+Processing: modified_05_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.48 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.37 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 4/7 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: modified_05_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.60 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 135/143 -> 9/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: modified_05_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 412/427 -> 10/10 points
+Final Score: 55/100 -> MATCH to original_05
+
+Processing: modified_05_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1494/1494 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_05
+
+Processing: modified_06_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 840/843 -> 10/10 points
+Final Score: 99/100 -> MATCH to original_06
+
+Processing: modified_06_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 788/790 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_06
+
+Processing: modified_06_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.49 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 4/5 -> 0/10 points
+Final Score: 25/100 -> REJECTED
+
+Processing: modified_06_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.60 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.18 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 22/27 -> 8/10 points
+Final Score: 33/100 -> REJECTED
+
+Processing: modified_06_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.23 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 144/181 -> 8/10 points
+Final Score: 53/100 -> MATCH to original_06
+
+Processing: modified_06_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 933/933 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_06
+
+Processing: modified_07_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.06 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 792/809 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_07
+
+Processing: modified_07_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1040/1044 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_07
+
+Processing: modified_07_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.35 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.47 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.43 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 6/9 -> 4/10 points
+Final Score: 4/100 -> REJECTED
+
+Processing: modified_07_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.61 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.85 -> 21/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 140/159 -> 9/10 points
+Final Score: 30/100 -> REJECTED
+
+Processing: modified_07_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.79 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.09 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 288/308 -> 9/10 points
+Final Score: 52/100 -> MATCH to original_07
+
+Processing: modified_07_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1154/1154 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_07
+
+Processing: modified_08_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1129/1140 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_08
+
+Processing: modified_08_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1375/1378 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_08
+
+Processing: modified_08_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.49 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.08 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 16/24 -> 7/10 points
+Final Score: 7/100 -> REJECTED
+
+Processing: modified_08_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.62 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.82 -> 21/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 108/119 -> 9/10 points
+Final Score: 30/100 -> REJECTED
+
+Processing: modified_08_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.81 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.28 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 361/364 -> 10/10 points
+Final Score: 53/100 -> MATCH to original_08
+
+Processing: modified_08_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1500/1500 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_08
+
+Processing: modified_09_bright_enhanced.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.99 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.51 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 235/247 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_09
+
+Processing: modified_09_compressed.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 251/254 -> 10/10 points
+Final Score: 96/100 -> MATCH to original_09
+
+Processing: modified_09_crop_25pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.30 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.10 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: modified_09_crop_50pct.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.48 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.05 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.13 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 9/9 -> 9/10 points
+Final Score: 9/100 -> REJECTED
+
+Processing: modified_09_crop_75pct.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.79 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.63 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 40/54 -> 7/10 points
+Final Score: 50/100 -> MATCH to original_09
+
+Processing: modified_09_format_png.png
+Rule 1 (Metadata): NO MATCH - Size ratio 0.63 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 313/313 -> 10/10 points
+Final Score: 75/100 -> MATCH to original_09
+
+Processing: original_00__contrast__compress__q55__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.71 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1381/1382 -> 10/10 points
+Final Score: 72/100 -> MATCH to original_00
+
+Processing: original_00__crop_keep60__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.78 -> 19/25 points
+Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 307/315 -> 10/10 points
+Final Score: 50/100 -> MATCH to original_00
+
+Processing: original_00__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 382/407 -> 9/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: original_00__crop_offcenter_keep75__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.67 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.94 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.14 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 418/431 -> 10/10 points
+Final Score: 33/100 -> REJECTED
+
+Processing: original_00__resize_scale114__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.38 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 626/697 -> 9/10 points
+Final Score: 54/100 -> MATCH to original_00
+
+Processing: original_00__rotate6deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.40 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 881/894 -> 10/10 points
+Final Score: 56/100 -> MATCH to original_00
+
+Processing: original_01__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.91 -> 23/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.52 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 986/995 -> 10/10 points
+Final Score: 73/100 -> MATCH to original_01
+
+Processing: original_01__crop_keep50__resized__q75__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.95 -> 24/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.93 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.10 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 101/138 -> 7/10 points
+Final Score: 54/100 -> MATCH to original_01
+
+Processing: original_01__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 1.00 -> 25/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.09 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 5/9 -> 0/10 points
+Final Score: 25/100 -> REJECTED
+
+Processing: original_01__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.62 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.05 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 186/245 -> 8/10 points
+Final Score: 33/100 -> REJECTED
+
+Processing: original_01__resize_scale75__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.76 -> 19/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.86 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 5/8 -> 0/10 points
+Final Score: 41/100 -> REJECTED
+
+Processing: original_01__rotate3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.90 -> 23/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.53 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 519/638 -> 8/10 points
+Final Score: 55/100 -> MATCH to original_01
+
+Processing: original_02__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.21 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1359/1361 -> 10/10 points
+Final Score: 71/100 -> MATCH to original_02
+
+Processing: original_02__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 130/147 -> 9/10 points
+Final Score: 54/100 -> MATCH to original_02
+
+Processing: original_02__crop_keep70__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.65 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 194/214 -> 9/10 points
+Final Score: 33/100 -> REJECTED
+
+Processing: original_02__crop_offcenter_keep55__compress__q45__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.58 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.10 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 51/64 -> 8/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: original_02__resize_scale85__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.84 -> 21/25 points
+Rule 3 (Template): NO MATCH - Match score 0.16 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 5/10 -> 0/10 points
+Final Score: 42/100 -> REJECTED
+
+Processing: original_02__rotate3deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.51 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 527/538 -> 10/10 points
+Final Score: 56/100 -> MATCH to original_02
+
+Processing: original_03__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.90 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.27 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1272/1274 -> 10/10 points
+Final Score: 72/100 -> MATCH to original_03
+
+Processing: original_03__crop_keep60__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.60 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 244/253 -> 10/10 points
+Final Score: 34/100 -> REJECTED
+
+Processing: original_03__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 359/400 -> 9/10 points
+Final Score: 56/100 -> MATCH to original_03
+
+Processing: original_03__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.61 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.95 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.19 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 302/309 -> 10/10 points
+Final Score: 34/100 -> REJECTED
+
+Processing: original_03__resize_scale75__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.81 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.88 -> 22/25 points
+Rule 3 (Template): NO MATCH - Match score 0.19 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 480/518 -> 9/10 points
+Final Score: 51/100 -> MATCH to original_03
+
+Processing: original_03__rotate-6deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.56 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 957/965 -> 10/10 points
+Final Score: 56/100 -> MATCH to original_03
+
+Processing: original_04__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.92 -> 23/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1252/1255 -> 10/10 points
+Final Score: 98/100 -> MATCH to original_04
+
+Processing: original_04__crop_keep50__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 30/61 -> 5/10 points
+Final Score: 51/100 -> MATCH to original_04
+
+Processing: original_04__crop_keep60__bright__compress__q65__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.15 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 59/89 -> 7/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: original_04__crop_offcenter_keep75__compress__q35__v1.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 20/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.80 -> 20/25 points
+Rule 3 (Template): NO MATCH - Match score 0.14 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/1 -> 0/10 points
+Final Score: 40/100 -> REJECTED
+
+Processing: original_04__resize_scale85__compress__q60__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.18 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 161/262 -> 6/10 points
+Final Score: 53/100 -> MATCH to original_04
+
+Processing: original_04__rotate-4deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.44 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 140/212 -> 7/10 points
+Final Score: 54/100 -> MATCH to original_04
+
+Processing: original_05__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 20/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.12 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1285/1287 -> 10/10 points
+Final Score: 70/100 -> MATCH to original_05
+
+Processing: original_05__crop_keep50__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.04 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 151/157 -> 10/10 points
+Final Score: 56/100 -> MATCH to original_05
+
+Processing: original_05__crop_keep70__bright__compress__q65__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.67 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.82 -> 20/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 421/431 -> 10/10 points
+Final Score: 30/100 -> REJECTED
+
+Processing: original_05__crop_offcenter_keep75__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.67 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 412/449 -> 9/10 points
+Final Score: 34/100 -> REJECTED
+
+Processing: original_05__resize_scale114__compress__q60__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.28 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 707/721 -> 10/10 points
+Final Score: 57/100 -> MATCH to original_05
+
+Processing: original_05__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.91 -> 23/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.54 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 813/943 -> 9/10 points
+Final Score: 57/100 -> MATCH to original_05
+
+Processing: original_06__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 809/814 -> 10/10 points
+Final Score: 97/100 -> MATCH to original_06
+
+Processing: original_06__crop_keep50__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.16 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 51/54 -> 9/10 points
+Final Score: 55/100 -> MATCH to original_06
+
+Processing: original_06__crop_keep70__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.64 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.26 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 82/83 -> 10/10 points
+Final Score: 34/100 -> REJECTED
+
+Processing: original_06__crop_offcenter_keep75__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.65 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.21 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 158/175 -> 9/10 points
+Final Score: 34/100 -> REJECTED
+
+Processing: original_06__resize_scale85__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.83 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.98 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.29 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 304/392 -> 8/10 points
+Final Score: 54/100 -> MATCH to original_06
+
+Processing: original_06__rotate-6deg__compress__q35__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.83 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.42 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 446/451 -> 10/10 points
+Final Score: 56/100 -> MATCH to original_06
+
+Processing: original_07__contrast__compress__q70__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.79 -> 20/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 862/866 -> 10/10 points
+Final Score: 92/100 -> MATCH to original_07
+
+Processing: original_07__crop_keep60__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.61 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.70 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 199/261 -> 8/10 points
+Final Score: 8/100 -> REJECTED
+
+Processing: original_07__crop_keep60__resized__q60__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.91 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.24 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 89/101 -> 9/10 points
+Final Score: 54/100 -> MATCH to original_07
+
+Processing: original_07__crop_offcenter_keep55__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.56 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.14 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 14/24 -> 6/10 points
+Final Score: 29/100 -> REJECTED
+
+Processing: original_07__resize_scale114__compress__q45__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.97 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.40 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 384/432 -> 9/10 points
+Final Score: 54/100 -> MATCH to original_07
+
+Processing: original_07__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.54 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 479/572 -> 8/10 points
+Final Score: 55/100 -> MATCH to original_07
+
+Processing: original_08__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.33 -> 0/25 points
+Rule 3 (Template): FIRED - Match score 1.00 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 1355/1357 -> 10/10 points
+Final Score: 71/100 -> MATCH to original_08
+
+Processing: original_08__crop_keep60__bright__compress__q55__v2.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.95 -> 24/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.01 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 5/8 -> 0/10 points
+Final Score: 24/100 -> REJECTED
+
+Processing: original_08__crop_keep60__resized__q45__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 194/206 -> 9/10 points
+Final Score: 53/100 -> MATCH to original_08
+
+Processing: original_08__crop_offcenter_keep65__compress__q35__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.62 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.92 -> 23/25 points
+Rule 3 (Template): NO MATCH - Match score 0.10 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 200/215 -> 9/10 points
+Final Score: 32/100 -> REJECTED
+
+Processing: original_08__resize_scale114__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.96 -> 24/25 points
+Rule 3 (Template): NO MATCH - Match score 0.46 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 540/638 -> 8/10 points
+Final Score: 53/100 -> MATCH to original_08
+
+Processing: original_08__rotate3deg__compress__q50__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.99 -> 25/25 points
+Rule 3 (Template): NO MATCH - Match score 0.61 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 801/811 -> 10/10 points
+Final Score: 57/100 -> MATCH to original_08
+
+Processing: original_09__contrast__compress__q35__v5.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 21/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.87 -> 22/25 points
+Rule 3 (Template): FIRED - Match score 0.99 -> 40/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 184/191 -> 10/10 points
+Final Score: 93/100 -> MATCH to original_09
+
+Processing: original_09__crop_keep50__resized__q75__v6.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.68 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 23/25 -> 9/10 points
+Final Score: 31/100 -> REJECTED
+
+Processing: original_09__crop_keep60__bright__compress__q40__v2.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.58 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.31 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.19 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 27/34 -> 8/10 points
+Final Score: 8/100 -> REJECTED
+
+Processing: original_09__crop_offcenter_keep55__compress__q25__v1.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.55 -> 0/25 points
+Rule 2 (Histogram): FIRED - Correlation 0.77 -> 19/25 points
+Rule 3 (Template): NO MATCH - Match score 0.62 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 22/30 -> 7/10 points
+Final Score: 26/100 -> REJECTED
+
+Processing: original_09__resize_scale75__compress__q30__v3.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.79 -> 20/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.59 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.60 -> 0/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 63/77 -> 8/10 points
+Final Score: 28/100 -> REJECTED
+
+Processing: original_09__rotate-3deg__compress__q65__v4.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 22/25 points
+Rule 2 (Histogram): FIRED - Correlation 1.00 -> 25/25 points
+Rule 3 (Template): FIRED - Match score 0.86 -> 34/40 points
+Rule 4 (Edges): FIRED - Ransac inlier 111/134 -> 8/10 points
+Final Score: 89/100 -> MATCH to original_09
+
+Processing: random_05.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.68 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_06.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.16 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/6 -> 0/10 points
+Final Score: 22/100 -> REJECTED
+
+Processing: random_07.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.83 -> 21/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 21/100 -> REJECTED
+
+Processing: random_08.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.71 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_09.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.92 -> 23/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.12 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 23/100 -> REJECTED
+
+Processing: random_10.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.83 -> 21/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 21/100 -> REJECTED
+
+Processing: random_11.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 21/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.31 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/10 -> 0/10 points
+Final Score: 21/100 -> REJECTED
+
+Processing: random_12.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.88 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 22/100 -> REJECTED
+
+Processing: random_13.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.89 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Rule 4 (Edges): NO MATCH - ransac inlier 0.0/0.0 -> 0/10 points
+Final Score: 22/100 -> REJECTED
+
+Processing: random_14.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 22/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.03 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/24 -> 0/10 points
+Final Score: 22/100 -> REJECTED
+
+Processing: random_noise_00.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.36 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/1 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_01.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.36 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_02.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.36 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_03.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.36 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/0 -> 0/10 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_04.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.36 -> 0/25 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/25 points
+Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/40 points
+Rule 4 (Edges): NO MATCH - Ransac inlier 0/0 -> 0/10 points
+Final Score: 0/100 -> REJECTED

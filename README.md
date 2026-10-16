@@ -82,6 +82,33 @@ Your Codio box can be reset at any time. **Your fork on GitHub is the only safe
 copy.** After every milestone run `./submit.sh "describe what you did"`. A box
 restart never touches GitHub.
 
+## Phase-2 reflection headings:
+
+## Observed weakness in V1: what failed and why
+```
+Image Augmentation such as cropping I have observed some images such as orignal_00_crop_keep60_resize_q45_v6.jpg was rejected in V1 even though with rule 1 and 2 contributing points still failed. 
+But when we added rule 4 which uses RANSAC with ORB keypoints features matching algorithm it has gotten 10/10 so v2 actually matched it with original_00 . 
+
+Now also in v1 we have an image original_02__resize_scale85__compress__q30__v3.jpg misclassified as original_04 with the final score 50/100 . The reason v1 failed most of the time, is that having the same metadata does not mean the image is a match so when we crop image it does not usually detect it because of downscaling in rule 3 which mess up the dimentions of image but also edges of it so our algorithms in v1 were enable to detect the match due to dowscaling for cropped images. 
+
+```
+## Design decision for V2: what Rule 4 is and why you chose it
+My thought process:
+
+There are many features matching algorithms such as SIFT, ORB, and so forth. I have chosen ORB due to its computational effeciency as mentioned in medium article :https://medium.com/analytics-vidhya/understanding-keypoints-and-orb-algorithm-f260e6fb640c . ORB since it uses FASTto detect those keypoints and also BRIEF descriptors to represent them as binary strings which can be compared using Hamming distance compare to SIFT which uses dense floating point coordination vector and then required to have Euclidean distance metrices which is computationally heavy on our codio i believe. 
+
+I also chose KNN which finds two nearest descriptor matches (neighbors) it does not cluster them like k-means which i was considering. 
+
+For RANSAC it checks geometric consistency between source and suspected images. 
+
+In conclusion, Rule 4 tries to recognize shared supposedly matched images even the suspect is cropped. In my implementation, we have inlier >= 6 and inlier ratio to be at least 0.4 for the rule to be fired. 
+
+## Effect of the change: accuracy before/after on easy vs hard
+Easy matches went from 39/60 + 15 rejected in v1 to 40/60 in v2 and ofc 15 rejected random ones. 
+on the hard caes, V1 had 36 accepted while one wrong. V2 has 36 correct ones and all 15 random rejected. 
+## Trade-offs: what new costs or risks did Rule 4 introduce
+First of all the risk of Rule 4 is only cost is 10/100 
+
 ## License
 
 Apache 2.0. See `LICENSE`.

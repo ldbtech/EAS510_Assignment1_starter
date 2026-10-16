@@ -86,7 +86,7 @@ def file_format(header) -> str:
 def rule1_metadata(target, input_path):
     """File size + dimensions. Compression and crops leave size fingerprints."""
     out = {"rule": 1, "name": "Metadata", "fired": False, "score": 0,
-           "out_of": 30, "note": "Size ratio 0.00", "metric": 0.0}
+           "out_of": 25, "note": "Size ratio 0.00", "metric": 0.0}
     try:
         # ok have to use os.state instea of os.path.getsize . 
         src_size = os.stat(target["path"]).st_size
@@ -135,7 +135,7 @@ def rule1_metadata(target, input_path):
 def rule2_histogram(target, input_path):
     """Color histogram correlation. Robust to crops and spatial changes."""
     out = {"rule": 2, "name": "Histogram", "fired": False, "score": 0,
-           "out_of": 30, "note": "Correlation 0.00", "metric": 0.0}
+           "out_of": 25, "note": "Correlation 0.00", "metric": 0.0}
     try:
         hs, hi = _hist(target["path"]), _hist(input_path)
         if hs is None or hi is None:
