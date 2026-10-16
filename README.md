@@ -107,7 +107,12 @@ In conclusion, Rule 4 tries to recognize shared supposedly matched images even t
 Easy matches went from 39/60 + 15 rejected in v1 to 40/60 in v2 and ofc 15 rejected random ones. 
 on the hard caes, V1 had 36 accepted while one wrong. V2 has 36 correct ones and all 15 random rejected. 
 ## Trade-offs: what new costs or risks did Rule 4 introduce
-First of all the risk of Rule 4 is only cost is 10/100 
+First of all the risk of Rule 4 is only cost is 10/100 however, it adds features detections, matching, and RANSAC computation, it can finds useful evidence in cropped images. For example, modified_00_crop_50pct.jpg received 9/10 from rule 4 but still got rejected because of how much rule 4 contribute.
+
+For Risks:
+- Computational costs as it is doing 3 computations for each image (keypoints, matches descriptors, RANSAC) . 
+- Mising evidence when the cropped image or low detailed image is so narrow where the algorithm won't detect it due to the lack of distinctive keypoints. 
+- Random image firing that did not happen in our case however it can happen even though ransac filter most of the outliers. 
 
 ## License
 
